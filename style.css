@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Homesection{
+    height: 90vh;
+    background: url(/images/desktop/image-header.jpg) no-repeat ;
+    background-size: cover;
+    color: #fff;
+    
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+    padding: 5px 15px;
+    
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+.headertext{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 43px;
+    letter-spacing: 2px;
+    font-family: 'Acme', sans-serif;
+}
+.highlight{
+    background-color: #fff;
+    border-radius: 20px;
+    color: hsl(228, 45%, 44%);
+    
+}
+
+/* first section */
+.firstsection{
+    height: 70vh;
+    
+    display: flex;
+}
+.firstside{
+  
+    width: 50%;
+}
+.secondside{
+    
+    width: 50%;
+}
+.eggimg{
+    background-size: contain;
+    height: 437px;
+    background-image: url(/images/desktop/image-transform.jpg);
+}
+.textbx {
+    padding: 100px 120px 100px 100px;
+}
+.titles{
+    font-size: 46px;
+}
+.undertxt{
+    line-height: 23px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.learn{
+    margin-top: 20px;
+}
+
+
+
+.secondsection{
+    height: 70vh;
+    
+    display: flex;
+}
+.glassimg{
+    background-size: contain;
+    height: 440px;
+    background-image: url(/images/desktop/image-stand-out.jpg);
+}
+
+
+.thirdsection{
+    height: 70vh;
+    
+    display: flex;
+}
+.orange{
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    height: 425px;
+}
+.lichi{
+    background-image: url(/images/desktop/image-photography.jpg);
+    height: 425px;
+}
+.txt{
+    position: relative;
+    bottom: 100px;
+    padding: 0px 144px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* client section */
+.testimonials{
+    height: 70vh;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.clienthead{
+    text-align: center;
+    padding-top: 60px;
+}
+.clientbx{
+    
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.testbx{
+    
+    height: 50vh;
+    width: 300px;
+    margin-right: 24px;
+}
+
+.clientimg{
+    height: 66px;
+    background-image: url(/images/image-emily.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 115px;
+    width: 66px;
+    border-radius: 50px;
+}
+.clientimg2{
+    height: 66px;
+    background-image: url(/images/image-thomas.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 115px;
+    width: 66px;
+    border-radius: 50px;
+}
+.clientimg3{
+    height: 66px;
+    background-image: url(/images/image-jennie.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 115px;
+    width: 66px;
+    border-radius: 50px;
+    
+}
+.text{
+    text-align: center;
+    margin: 41px 0px;
+    padding: 0px 12px;
+}
+.clientname{
+    text-align: center;
+    font-weight: bolder;
+}
+.clientpost{
+    text-align: center;
+    font-size: 13px;
+}
+
+.imgsection{
+    height: 80vh;
+   
+    display: flex;
+}
+.images{
+    height: 500px;
+    width: 500px;
+    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+}
+.images2{
+    height: 500px;
+    width: 500px;
+    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+}
+.images3{
+    height: 500px;
+    width: 500px;
+    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+}
+.footersection{
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footertext{
+    text-align: center;
+    font-weight: bolder;
+}
+.socialimg{
+    margin: 28px 40px;
+}
