@@ -191,6 +191,12 @@ a{
     background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
     background-size: cover;
 }
+.images4{
+    height: 500px;
+    width: 500px;
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+}
 .footersection{
     height: 240px;
     display: flex;
@@ -206,4 +212,97 @@ a{
 }
 .socialimg{
     margin: 28px 40px;
+}
+@media (max-width:500px){
+    .navbar{
+        padding: 47px;
+    } 
+    .clientbx {
+        flex-wrap: wrap;
+    }
+    .txt{
+        position: relative;
+        bottom: 116px;
+        line-height: 23px;
+        padding: 0px 67px;
+    }
+    .imgsection{
+        flex-wrap: wrap;
+        
+        flex-direction: column;
+    } 
+    .titles{
+        margin-top: 70px;
+        padding: 0px 5px;
+    }
+    .textbx {
+        padding: 19px 14px 5px 10px;
+        text-align: center;
+    }
+    .undertxt {
+        line-height: 27px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0px 36px;
+    }
+    .headertext {
+        padding: 10px 24px;
+        font-size: 58px;
+    }
+    .Homesection{
+        background-position: center;
+        margin-bottom: 208px;
+    }
+    .firstside{
+        width: 100%;
+        height: 437px;
+    }
+    .secondside{
+        width: 100%;
+    }
+    .firstsection{
+        flex-wrap: wrap-reverse;
+    }
+    .eggimg {
+        background-size: cover;
+        background-position: center;
+    }
+    .secondsection{
+        flex-wrap: wrap;
+        margin-bottom: 418px;
+    }
+    .thirdsection{
+        flex-wrap: wrap;
+        margin-bottom: 483px;
+    }
+    .orange{
+        height: 437px;
+        background-position: top;
+    }
+    .lichi{
+        height: 437px;
+        background-position: top;
+    }
+    .testimonials{
+        margin-bottom: 655px;
+    }
+    .images {
+        height: 250px;
+        width: 250px;
+    }
+    .images2 {
+        height: 250px;
+        width: 250px;
+    }
+    .images3 {
+        height: 250px;
+        width: 250px;
+    }
+    .images4 {
+        height: 250px;
+        width: 250px;
+    }
+    .footernav{
+        display: none;
+    }
 }
